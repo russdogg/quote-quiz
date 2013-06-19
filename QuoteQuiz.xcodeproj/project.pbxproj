@@ -20,6 +20,7 @@
 		BD9AB810176FC62300694C2A /* QuoteQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AB80F176FC62300694C2A /* QuoteQuizViewController.m */; };
 		BD9AB818176FD39200694C2A /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AB817176FD39200694C2A /* Quiz.m */; };
 		BD9AB81A176FD64100694C2A /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9AB819176FD64100694C2A /* quotes.plist */; };
+		BDDEE60B1771282F004189FF /* QuizTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDEE60A1771282F004189FF /* QuizTipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		BD9AB816176FD39200694C2A /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
 		BD9AB817176FD39200694C2A /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
 		BD9AB819176FD64100694C2A /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
+		BDDEE6091771282F004189FF /* QuizTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTipViewController.h; sourceTree = "<group>"; };
+		BDDEE60A1771282F004189FF /* QuizTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				BD9AB817176FD39200694C2A /* Quiz.m */,
 				BD9AB80E176FC62300694C2A /* QuoteQuizViewController.h */,
 				BD9AB80F176FC62300694C2A /* QuoteQuizViewController.m */,
+				BDDEE6091771282F004189FF /* QuizTipViewController.h */,
+				BDDEE60A1771282F004189FF /* QuizTipViewController.m */,
 				BD9AB819176FD64100694C2A /* quotes.plist */,
 				BD9AB7FA176FC62300694C2A /* Supporting Files */,
 			);
@@ -187,6 +192,7 @@
 				BD9AB804176FC62300694C2A /* QuoteQuizAppDelegate.m in Sources */,
 				BD9AB810176FC62300694C2A /* QuoteQuizViewController.m in Sources */,
 				BD9AB818176FD39200694C2A /* Quiz.m in Sources */,
+				BDDEE60B1771282F004189FF /* QuizTipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +315,7 @@
 				BD9AB815176FC62300694C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
